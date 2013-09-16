@@ -1,0 +1,88 @@
+{
+    "Servers": [
+        {
+            "name": "Darchoods",
+            "address": "irc.darchoods.net",
+            "port": 6697,
+            "ssl": 1,
+            "autoconnect": "yes"
+        },
+        {
+            "name": "Freenode",
+            "address": "irc.freenode.org",
+            "port": 6697,
+            "ssl": 1,
+            "autoconnect": "yes"
+        }
+    ],
+
+    "Chatnets": [
+        {
+            "name": "Darchoods",
+            "type": "IRC",
+            "autosendcmd": "/^msg NICKSERV IDENTIFY passwordgoeshere;wait 5000"
+        },
+        {
+            "name": "Freenode",
+            "type": "IRC"
+        }
+    ],
+
+    "Channels": [
+        {
+            "chatnet":  "Darchoods",
+            "name":     "#darchoods",
+        },
+        {
+            "chatnet":  "Darchoods",
+            "name":     "#cybershade",
+        },
+        {
+            "chatnet":  "Darchoods",
+            "name":     "##x86",
+        },
+        {
+            "chatnet":  "Darchoods",
+            "name":     "#anti-darchoods",
+        },
+        {
+            "chatnet":  "Freenode",
+            "name":     "#linux.hr",
+        },
+        {
+            "chatnet":  "Freenode",
+            "name":     "#ubuntu.hr",
+        }
+    ],
+
+    "Hilights": [
+        {
+            "text": "Infy",
+            "nick": "yes",
+            "word": "yes",
+        },
+        {
+            "text": "InfinitY",
+            "nick": "yes",
+            "word": "yes",
+        },
+        {
+            "text": "McInferz",
+            "nick": "yes",
+            "word": "yes",
+
+        },
+        {
+            "text": "Infhay",
+            "nick": "yes",
+            "word": "yes",
+
+        },
+        {
+            "text": "infysauce",
+            "nick": "yes",
+            "word": "yes",
+
+        }
+    ],
+}
