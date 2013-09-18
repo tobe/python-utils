@@ -33,6 +33,7 @@ def run():
     #exit()
 
     i = 1
+    # ::: SERVER INFO :::
     for s_info in data['Servers']: # Foreach server info
         #print s_info['name']
         output += '\n\t{\n'
@@ -58,6 +59,68 @@ def run():
             output += '\t},'
         i = i + 1
 
+    # End server info & start the chatnets.
+    output += '\n);\n'
+    output += 'chatnets = {\n'
+
+    # ::: CHATNETS :::
+#    i = 1
+    for chatnets in data['Chatnets']:
+        # Autosend blank?
+        if not 'autosend' in chatnets:
+            chatnets['autosend'] = 'echo \'What are you looking for here?\''
+
+        output += '\t' + chatnets['name'] + ' = ' + '{\n'
+        output += '\t\ttype = "' + chatnets['type'] + '";\n'
+        output += '\t\tautosendcmd = "' + chatnets['autosend'] + '";\n'
+        output += '\t\tmax_kicks = "100";\n'
+        output += '\t\tmax_msgs = "100";\n'
+        output += '\t\tmax_whois = "1";\n'
+        output += '\t};\n'
+
+    # Start the channels.
+    output += 'channels = (\n'
+
+    # ::: CHANNELS :::
+    i = 1
+    for channels in data['Channels']:
+        output += '\t{\n'
+        output += '\t\tname = "' + channels['name'] + '";\n'
+        output += '\t\tchatnet = "' + channels['chatnet'] + '";\n'
+        output += '\t\tautojoin = "yes";\n'
+
+        if i == len(data['Channels']):
+            output += '\t}'
+        else:
+            output += '\t},\n'
+        i = i + 1
+
+    # End the channels and start with Hilights
+    output += '\n);\n'
+
+    # Poof, show the user to paste their own stuff here.
+    output += '\n### PASTE YOUR OWN ALIASES HERE ###\n\n\n\n\n\n'
+    output += '### PASTE YOUR OWN STATUSBAR HERE ###\n\n\n\n\n\n'
+    output += '### PASTE YOUR OWN SETTINGS HERE ###\n\n\n\n\n\n'
+
+    output += 'hilights = (\n'
+
+    # ::: HILIGHTS :::
+    i = 1
+    for hilights in data['Hilights']:
+        output += '\t{\n'
+        output += '\t\ttext = "' + hilights['text'] + '";\n'
+        output += '\t\tnick = "' + hilights['nick'] + '";\n'
+        output += '\t\tword = "' + hilights['word'] + '";\n'
+
+        if i == len(data['Hilights']):
+            output += '\t}'
+        else:
+            output += '\t},\n'
+        i = i + 1
+
+    # And we're done...now off to windows and we're done!
+    output += ');'
 
     print output
 

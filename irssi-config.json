@@ -20,7 +20,7 @@
         {
             "name": "Darchoods",
             "type": "IRC",
-            "autosendcmd": "/^msg NICKSERV IDENTIFY passwordgoeshere;wait 5000"
+            "autosend": "/^msg NICKSERV IDENTIFY passwordgoeshere;wait 5000"
         },
         {
             "name": "Freenode",
