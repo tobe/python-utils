@@ -134,7 +134,7 @@ def run():
         output += '\t\t\t{\n'
         output += '\t\t\t\ttype = "CHANNEL";\n'
         output += '\t\t\t\tchat_type = "IRC";\n'
-        output += '\t\t\t\tname = "#' + windows['name'] + '";\n'
+        output += '\t\t\t\tname = "' + windows['name'] + '";\n'
         output += '\t\t\t\ttag = "' + windows['chatnet'] + '";\n'
         output += '\t\t\t}\n'
         output += '\t\t);\n'
