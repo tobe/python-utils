@@ -48,12 +48,21 @@ The whole thing has been hacked in under 5 minutes. I was curious enough about i
 Follow these steps in order to configure the program itself:
 
 1. Open Firefox, navigate to `about:config` and create a new string called `geo.wifi.uri`. Set its value to `http://localhost:1950/`. Alternatively, you can change the port and the IP to your likings, but we'll keep it simple for now. Don't forget the `http://` prefix.
+
 2. Open `geolocation.py` and edit the following values on lines ~9~11 to your likings: `latitude`, `longtitude` and `accuracy`. You can use Google Maps or some other service in order to find these, just google. Don't forget these *MUST* be strings!
+
 3. Navigate to the bottom of the file on line ~29, and if you wish change the IP address if you are running multiple NICs and/or the port. But [you should love 1950](http://en.wikipedia.org/wiki/Torcida_Split).
+
 4. Run the script, it servers forever, so it acts like a daemon.
+
 5. Test it over here: [http://html5demos.com/geo](http://html5demos.com/geo) (or wherever you like).
+
 6. When the websites returns your location you can kill the server via ^C, alternatively you can keep it running so you can do more requests later on.
+
 7. Did it work? If it did, you should've landed in Chernobyl by default. If not, you did something wrong.
 
+
+
 If you would like to learn more about Google's geolocation and how I got the response, click [here](https://developers.google.com/maps/documentation/business/geolocation/#responses).
+
 [Your cellphone works the same way](https://developers.google.com/maps/documentation/business/geolocation/#sample-requests), except it even sends cell data + the wifi networks. If you have GPS turned out, it prioritizes GPS over Geolocation.
