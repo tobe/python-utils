@@ -3,6 +3,9 @@
 import sys # Ovo nam je potrebno zbog korište?a sys.argv
 import httplib # httplib > urllib2 za HTTP requeste tipa $_POST ili $_GET ;) a i PUT i DELETE.
 import urllib # potreban za urlencode() ekvivalent u PHP-u.
+import re # regex, potreban za traženje definicija i što ne
+import HTMLParser # za pretvaranje HTML entitya tipa UTF-8 znakova vrijednosti &#x005B; u sirov znak.
+
 
 def main():
 
@@ -29,15 +32,44 @@ def main():
 
     # To je to?
     conn = httplib.HTTPConnection('hjp.novi-liber.hr')
-    conn.set_debuglevel(1)    
+    #conn.set_debuglevel(1)    
     conn.request('POST', 'http://hjp.novi-liber.hr/index.php?show=search', ss, headers)
     response = conn.getresponse()
 
-    print(response.status, response.reason)
+    #print(response.status, response.reason)
+    print 'HTTP Status: %d' % (response.status)
+    print 'HTTP Reason: %s' % (response.reason)
+    if response.status != 200:
+        raise Exception('Nešto je pošlo po zlu...HTTP 200 nije zaprimljen, uh oh.')
+
     data = response.read()
-    print(data)
     conn.close()
 
+    # Pronađi riječ (definiciju), postoji server side correction koji ispravlja č u ć i obratno, te ije u je i obratno.
+    m = re.findall('<td id="osnovni_podaci_frame">\s*<br><b>(.*)</b>', data, re.I|re.M)
+
+    if not m[0]:
+        raise Exception('Regex pojma nije pronašao niti jednu riječ...?')
+
+    h = HTMLParser.HTMLParser()
+    rije4_p = h.unescape(m[0])
+    print 'Pronađena riječ:' + rije4_p.encode('utf-8')
+
+    # A sada se pozabavi definicijom....
+    m = set(re.findall('<b>([0-9]{0,1}). </b></td><td>(.*?)</td></tr>', data, re.I|re.M|re.S))
+    if not m:
+        raise Exception('Regex defincije nije prošao...ne postoji?')
+
+    print 'Definicije: '
+
+    for k, v in m:
+        # Eliminiraj HTML tagove
+        v = re.sub(r'<[^>]*?>', '', v)
+        # Pretvori ih u "normalne" vrijednosti
+        v = h.unescape(v)
+        print '- %s' % (v)
+
+    #print(data)
 
 if __name__ == '__main__':
     try:

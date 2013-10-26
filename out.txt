@@ -1,0 +1,423 @@
+Pretražujem bazu HJP-a za riječ "stijena"...
+HTTP Status: 200
+HTTP Reason: OK
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Zastenice, Stinica, Stinčić, stijena, Šepci Podstenski, Podstene, Podstena, Gornje Postinje, Bijela Stijena" />
+<meta name="description" content="stijena: stij&#x00E9;na &#x017E; &#x2329;zb. stij&#x0207;nje&#x232A; : 1. tvrda kamena masa, kamena litica &#x005B;eruptivne stijene; metamorfne stijene; sedimentne stijene&#x005D;; greben, hrid 2. reg. zid unutar zgrade, pregradni zid " />
+<meta name="google-site-verification" content="EA9y_wpPQurka8LkKPuWknbSsy_ZupUbQ55rcpVjdc0" />
+<!-- Add the following three tags inside head -->
+<meta itemprop="name" content="Hrvatski jezični portal">
+<meta itemprop="description" content="Hrvatski jezični portal (HJP) rezultat je zajedničkog projekta Novog Libera i Srca. Organiziran je oko rječničke baze Novog Libera. Rječnička baza sastoji se od 116.516 osnovnih riječi (natuknica), od toga  67.049 imenica, 15.699 glagola, 20.154 pridjeva, 7.017 priloga, 111 prijedloga, 72 veznika, 152 broja, 102 zamjenice, 98 čestica i 302 uzvika. Uz osnovne riječi i njihove definicije bazu sačinjavaju i primjeri (oko 60.000), sintagmatski izrazi (oko 18.000) i frazeološki izrazi (oko 10.000). Porijeklo riječi objašnjeno je u zoni etimologije, a porijeklo osobnih imena i prezimena (antroponimi) te geografskih imena (toponima) objašnjeno je u zoni onomastike.">
+<title>Hrvatski jezični portal</title>
+<style type="text/css">
+<!--
+body,td,th {
+	font-size: x-small;
+	color: #000066;
+}
+body {
+	background-color: #EBEBEB;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image:   url(images/pozadina.jpg);
+}
+-->
+</style>
+<link href="css/HJP.css" rel="stylesheet" type="text/css">
+<script language="javascript" src="script_new.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31107731-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+	window.___gcfg = {lang: 'hr'};
+	(function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+</head>
+
+<body>
+<center>
+<table width="100%"  border="0" align="center" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="20%" background="images/glava-pozadina.gif" >&nbsp;
+		</td>
+		<td valign="top" background="images/glava-pozadina.gif" bgcolor="#00549B" style="text-align:center" width="640px" align="center">
+			<img src="images/glava.gif" height="62" align="middle">
+		</td>
+		<td width="20%" background="images/glava-pozadina.gif">&nbsp;
+		</td>
+	</tr>
+	<tr>
+		<td colspan="3" height="25" valign="middle" bgcolor="#000066" style="text-align:center">
+			<center>
+<table border="0" cellpadding="0" cellspacing="0" height="25px">
+	<tr>
+
+	<td class="border-l-d"><a href="index.php?show=main" class="menua">NASLOVNICA</a></td>
+	<td class="border-l-d"><a href="index.php?show=baza" class="menua">RJEČNIČKA BAZA</a></td>
+	<td class="border-l-a"><a href="index.php?show=search" class="menua">PRETRAŽIVANJE RJEČNIČKE BAZE</a></td>
+	<td class="border-l-d"><a href="index.php?show=legenda" class="menua">UPUTE O ČITANJU RJEČNIČKE BAZE</a></td>
+	<td class="border-l-d"><a href="index.php?show=izvedeni" class="menua">IZVEDENI OBLICI</a></td>
+	<td class="border-l-d"><a href="index.php?show=povijest" class="menua">POVIJEST HRVATSKOGA JEZIKA</a></td>
+	<td class="border-l-d"><a href="index.php?show=font" class="menua">FONT LIBERSINA</a></td>
+	</tr>
+</table>
+</center>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;
+		</td>
+		<td class="gadd">
+			<script type="text/javascript"><!--
+				google_ad_client = "ca-pub-2223815936086271";
+				/* gornji leaderboard */
+				google_ad_slot = "5447837027";
+				google_ad_width = 728;
+				google_ad_height = 90;
+				//-->
+			</script>
+			<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+		</td>
+		<td>&nbsp;
+		</td>
+	</tr>
+	<tr valign="top">
+		<td style="padding-right:5px;padding-left:10px;">
+<!-- lijevi menu -->
+			<link rel="stylesheet" href="jquery/jquery.autocomplete.css" type="text/css" />
+<script type="text/javascript" src="jquery/jquery.js"></script>
+<script type="text/javascript" src="jquery/jquery.autocomplete.js"></script>
+<script type="text/javascript" src="jquery/jquery.cookie.js"></script>
+<form name="srchFRM" action="index.php?show=search" method="post" id="srchFRM">
+			<table   border="0" align="right" cellpadding="5" cellspacing="3">
+				<tr> 
+					<td height="38" class="normal">&nbsp;</td>
+				</tr>
+				<tr> 
+				  <td class="normal"><strong>PRIKAZ NATUKNICE: </strong></td>
+				</tr>
+				<tr> 
+				  <td class="normal" style="text-align:left;padding:0px;" nowrap="nowrap"><input tabindex=1 name="word" id="word" type="text" class="border-all" autocomplete="off" maxlength="30">
+					<input type="submit" name="search" class="button_search" value=" "><br />
+					<input type="checkbox" id="chb_autocomplete" /><span style="margin-top:1px;">Uključi padajuću listu za pomoć pri izboru riječi.</span></td>
+				</tr>
+				<tr> 
+				  <td height="5">&nbsp;</td>
+				</tr>
+				
+	<tr> 
+		<td class="border-all" style="background-color:white;">
+	  		<!--
+			<a href="?show=kosi_oblici&template=ko&id=d1tjXhg%3D" target="_blank" title="Kliknite ovdje za prikaz izvedenih oblika natuknice">IZVEDENI OBLICI</a>
+			-->
+			<a href="?show=kosi_oblici&id=d1tjXhg%3D" title="Kliknite ovdje za prikaz izvedenih oblika natuknice">IZVEDENI OBLICI</a>
+		</td>
+	</tr>
+
+				<tr> 
+				  <td bgcolor="#FFFFFF" class="border-all" title="Uključite / isključite prikaz osnovnih gramatičkih podataka"><input type="checkbox" name="osnovni_podaci" onClick="javascript: visi(this)" CHECKED>
+					OSNOVNI GRAMATIČKI PODACI</td>
+				</tr>
+				<tr> 
+				  <td height="5" bgcolor="#EDF4FA" class="border-all" title="Uključite / isključite prikaz definicije"><input type="checkbox" name="definicija"  onClick="javascript: visi(this)" CHECKED>
+					DEFINICIJA</td>
+				</tr>
+				<tr> 
+				  <td bgcolor="#EFF6EE" class="border-all" title="Uključite / isključite prikaz sintagme"><input type="checkbox" name="sintagma" onClick="javascript: visi(this)" >
+					SINTAGMA</td>
+				</tr>
+				<tr> 
+				  <td bgcolor="#F8F0E3" class="border-all" title="Uključite / isključite prikaz frazeologije"><input type="checkbox" name="frazeologija" onClick="javascript: visi(this)"  >
+					FRAZEOLOGIJA</td>
+				</tr>
+				<tr> 
+				  <td height="5" bgcolor="#F7EFFC" class="border-all" title="Uključite / isključite prikaz onomastike"><input type="checkbox" name="onomastika" onClick="javascript: visi(this)" >
+					ONOMASTIKA</td>
+				</tr>
+				<tr> 
+				  <td bgcolor="#F0F3FC" class="border-all" title="Uključite / isključite prikaz etimologije"><input type="checkbox" name="etimologija" onClick="javascript: visi(this)" >
+					ETIMOLOGIJA</td>
+				</tr>
+				
+				<tr>
+					<td>&nbsp;
+					
+					</td>
+				</tr>
+				<tr> 
+				  <td class="border-all" style="background-color:transparent;" title="Da biste ispravno vidjeli sadržaj rječnika, na svom računalu morate imati instaliran font Libersina. Nakon preuzimanja, font je potrebno raspakirati instalirati na računalo.">
+					<a href="download/libersina.zip">PREUZIMANJE FONTA LIBERSINA<sup>&copy;</sup></a>
+					<input type="hidden" name="postano" value="true">
+					</td>
+				</tr>
+				<tr> 
+				  	<td style="background-color:transparent;">
+					<script type="text/javascript"><!--
+						google_ad_client = "ca-pub-2223815936086271";
+						/* lijevi donji */
+						google_ad_slot = "1131870426";
+						google_ad_width = 250;
+						google_ad_height = 250;
+						//-->
+					</script>
+					<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+					</td>
+				</tr>
+				
+			</table>
+			
+</form>
+
+<script type="text/javascript">
+$().ready(function() {
+	$("#word").focus();
+	if($.cookie("hjp_autocomplete")!="N"){
+		$("#chb_autocomplete").prop("checked", true);
+		$("#word").autocomplete("hjp_ajax.php", {
+			minChars: 2,
+			extraParams: { 	s:'s' }
+		});
+	}
+	$('#chb_autocomplete').change(function() {
+		if ($('#chb_autocomplete').attr('checked')) {
+			$.cookie("hjp_autocomplete", "Y", { expires: 30 });
+			$("#word").autocomplete("hjp_ajax.php", {
+				minChars: 2,
+				extraParams: { 	s:'s' }
+			});
+		} else {
+			$.cookie("hjp_autocomplete", "N", { expires: 30 });
+			$("#word").unautocomplete();
+		}
+	});
+	$('input#word').result(function(event, data, formatted) {
+		$('#srchFRM').submit();
+	});
+});
+</script>
+
+			<br><br>
+			
+		</td>
+		<td align="center" valign="bottom">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr class="ban">
+					<td class="ban_lijevi">&nbsp;</td>
+					<td class="ban_srednji">&nbsp;</td>
+					<td class="ban_desni">&nbsp;</td>
+				</tr>
+				<tr>
+					<td align="center" width="100%" colspan=3 bgcolor="#FFFFFF" style="border:1px solid #006BB2;border-top:0px;border-bottom:0px;" height="750px" valign="top">
+						<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td class="pozicija" width="100%">Hrvatski jezični portal</td>
+							</tr>
+							<tr>
+								<td align="left" valign="top" style="padding:10px;">
+									<table width="100%" height="500"  border="0" cellpadding="0" cellspacing="0"> 
+	<tr>
+        <td align="left" valign="top" class="natuknica">
+			<table width="100%" cellpadding="0" cellspacing="0">
+				<tr>
+					<td>
+						<a href="http://hjp.novi-liber.hr/index.php?show=search_by_id&id=d1tjXhg%3D&keyword=stijena">Direktan link za pristup natuknici</a> | 
+						<a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fhjp.novi-liber.hr%2Findex.php%3Fshow%3Dsearch_by_id%26id%3Dd1tjXhg%253D%26keyword%3Dstijena&t=Hrvatski+jezi%C4%8Dni+portal%3A+stijena" target="_blank" rel="nofollow" title="Podijeli na Facebook-u"><img src="images/facebook_icon.png"  style="border:0;vertical-align:middle;"/></a> | <a href="http://twitter.com/home?status=Hrvatski+jezi%C4%8Dni+portal%3A+stijena+http%3A%2F%2Fhjp.novi-liber.hr%2Findex.php%3Fshow%3Dsearch_by_id%26id%3Dd1tjXhg%253D%26keyword%3Dstijena" rel="nofollow" title="Podijeli na Twitter-u" target="_blank"><img src="images/twitter_icon.png" style="border:0;vertical-align:middle;"/></a> |
+<g:plusone size="small" href="http://hjp.novi-liber.hr/index.php?show=search_by_id&id=d1tjXhg%3D&keyword=stijena"></g:plusone>
+					</td>
+				</tr>
+				<tr>
+					<td id="natuknica_raster_frame">
+						<br><b>stij&#x00E9;na</b> 
+					</td>
+				</tr>
+				<tr>
+					<td id="osnovni_podaci_frame">
+						<br><b>stij&#x00E9;na</b> <i>&#x017E;</i> &#x2329;<i>zb.</i> stij&#x0207;nje&#x232A; 
+					</td>
+				</tr>
+				<tr>
+					<td height="20" bgcolor="#EDF4FA" background="images/definicija-back.jpg"><img src="images/definicija.jpg" width="102" height="20"></td>
+                </tr>
+				<tr>
+					<td id="definicija_frame" bgcolor="#EDF4FA">
+						<br><table width="100%"><tr><td width="1%"><b>1. </b></td><td>tvrda kamena masa, kamena litica &#x005B;<i>eruptivne stijene</i>; <i>metamorfne stijene</i>; <i>sedimentne stijene</i>&#x005D;; greben, hrid </td></tr><tr><td><b>2. </b></td><td><i>reg.</i> zid unutar zgrade, pregradni zid </td></tr></table>
+					</td>
+				</tr>
+				<tr>
+					<td height="20" bgcolor="#EFF9EE" background="images/sintagma-back.jpg"><img src="images/sintagma.jpg" width="102" height="20"></td>
+                    </tr>
+				<tr>
+					<td id="sintagma_frame"  bgcolor="#EFF9EE">
+						
+					</td>
+				</tr>
+				<tr>
+					<td height="20" bgcolor="#F8F0E3" background="images/frazeologija-back.jpg"><img src="images/frazeologija.jpg" width="102" height="20"></td>
+				</tr>
+				<tr>
+					<td id="frazeologija_frame" bgcolor="#F8F0E3">
+						<br>&#x20DF; <b><i>bacati bob o stijenu</i></b> <i>posl.</i> baviti se uzaludnim poslom;<br><b><i>biti tvrd, hladan kao stijena</i></b> biti bez osje&#x0107;aja;<br><b><i>&#x010D;vrst kao stijena</i></b> vrlo postojan, nepokolebljiv (o osobi);<br><b><i>nisam (ni ja) stijena</i></b> (i ja) imam potrebu za ljudskom toplinom, nisam bezosje&#x0107;ajan 
+					</td>
+				</tr>
+				<tr>
+					<td height="20" bgcolor="#F7EFFC" background="images/onomastika-back.jpg"><img src="images/onomastika.jpg" width="102" height="20"></td>
+				</tr>
+				<tr>
+					<td id="onomastika_frame" bgcolor="#F7EFFC">
+						<br>&#x2666; <i>pr.</i> (etnik): <b>St&#x020B;n&#x010D;i&#x0107;</b> (Jastrebarsko, Zagreb i okolica) <br>&#x25CA; <i>top.</i> (naselja): <b>Bij&#x0207;l&#x0101; Stij&#x00E9;na</b> (Nova Gradi&#x0161;ka, 50 stan.), <b>G&#x020F;rnj&#x0113; P&#x00F2;st&#x012B;nje</b> (Solin, 139 stan.), <b>P&#x00F2;dstena</b> (Delnice, 40 stan.), <b>P&#x00F2;dstene</b> (&#x010C;abar, 21 stan.; Delnice, 32 stan.), <b>St&#x00ED;nica</b> (Senj, 145 stan.), <b>&#x0160;&#x00E9;pci P&#x00F2;dstensk&#x012B;</b> (Delnice, 9 stan.), <b>Z&#x00E0;stenice</b> (Rijeka, 374 stan.) 
+					</td>
+				</tr>
+				<tr>
+					<td height="20" bgcolor="#F0F3FC" background="images/etimologija-back.jpg"><img src="images/etimologija.jpg" width="102" height="20"></td>
+				</tr>
+				<tr>
+					<td id="etimologija_frame" bgcolor="#F0F3FC">
+						<br>&#x2727; <i>prasl.</i> i <i>stsl.</i> *st&#x011B;na: zid (<i>rus.</i> sten&#x00E1;, <i>&#x010D;e&#x0161;.</i> st&#x011B;na) &#x2243; <i>got.</i> stains: kamen 
+					</td>
+				</tr>
+			</table>
+			<div style="visibility:hidden;height:0px;" id="natuknica_raster_content">
+				<font size="+2"><br><b>stij&#x00E9;na</b> </font>
+			</div>
+			<div style="visibility:hidden;height:0px;" id="osnovni_podaci_content">
+				<br><b>stij&#x00E9;na</b> <i>&#x017E;</i> &#x2329;<i>zb.</i> stij&#x0207;nje&#x232A; 
+			</div>
+			<div style="visibility:hidden;height:0px;" id="definicija_content">
+				<br><table width="100%"><tr><td width="1%"><b>1. </b></td><td>tvrda kamena masa, kamena litica &#x005B;<i>eruptivne stijene</i>; <i>metamorfne stijene</i>; <i>sedimentne stijene</i>&#x005D;; greben, hrid </td></tr><tr><td><b>2. </b></td><td><i>reg.</i> zid unutar zgrade, pregradni zid </td></tr></table>
+			</div>
+			<div style="visibility:hidden;height:0px;" id="sintagma_content">
+				
+			</div>
+			<div style="visibility:hidden;height:0px;" id="frazeologija_content">
+				<br>&#x20DF; <b><i>bacati bob o stijenu</i></b> <i>posl.</i> baviti se uzaludnim poslom;<br><b><i>biti tvrd, hladan kao stijena</i></b> biti bez osje&#x0107;aja;<br><b><i>&#x010D;vrst kao stijena</i></b> vrlo postojan, nepokolebljiv (o osobi);<br><b><i>nisam (ni ja) stijena</i></b> (i ja) imam potrebu za ljudskom toplinom, nisam bezosje&#x0107;ajan 
+			</div>
+			<div style="visibility:hidden;height:0px;" id="onomastika_content">
+				<br>&#x2666; <i>pr.</i> (etnik): <b>St&#x020B;n&#x010D;i&#x0107;</b> (Jastrebarsko, Zagreb i okolica) <br>&#x25CA; <i>top.</i> (naselja): <b>Bij&#x0207;l&#x0101; Stij&#x00E9;na</b> (Nova Gradi&#x0161;ka, 50 stan.), <b>G&#x020F;rnj&#x0113; P&#x00F2;st&#x012B;nje</b> (Solin, 139 stan.), <b>P&#x00F2;dstena</b> (Delnice, 40 stan.), <b>P&#x00F2;dstene</b> (&#x010C;abar, 21 stan.; Delnice, 32 stan.), <b>St&#x00ED;nica</b> (Senj, 145 stan.), <b>&#x0160;&#x00E9;pci P&#x00F2;dstensk&#x012B;</b> (Delnice, 9 stan.), <b>Z&#x00E0;stenice</b> (Rijeka, 374 stan.) 
+			</div>
+			<div style="visibility:hidden;height:0px;" id="etimologija_content">
+				<br>&#x2727; <i>prasl.</i> i <i>stsl.</i> *st&#x011B;na: zid (<i>rus.</i> sten&#x00E1;, <i>&#x010D;e&#x0161;.</i> st&#x011B;na) &#x2243; <i>got.</i> stains: kamen 
+			</div>
+<SCRIPT language="JavaScript">
+<!--
+	natuknicaShowed=true;
+	for ( var i = 0; i < window.document.srchFRM.elements.length; i++ ) {
+		var frmInput = window.document.srchFRM.elements[i];
+		if(frmInput.type=='checkbox'){
+			visi(frmInput);
+		}
+	}
+-->
+</SCRIPT>
+		</td>
+	</tr>
+	<tr>
+		<td align="left" valign="top" class="normal">&nbsp;</td>
+	</tr>
+</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+<!-- login form -->
+		<td style="text-align:left;padding-left:5px;padding-right:10px">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tr>
+					<td height="60px">
+					<!-- Template variable LOGIN_FORM undefined -->
+					</td>
+				</tr>
+				<tr>
+					<td>
+					<table border="0" align="left" cellpadding="5" cellspacing="3">
+
+	<tr> 
+	  <td bgcolor="#FFFFFF" class="border-all" title="KRATICE I ODREDNICE"><a href="?show=kratice_odrednice">KRATICE I ODREDNICE</a></td>
+	</tr>
+	<tr> 
+	  <td bgcolor="#FFFFFF" class="border-all" title="KRATICE I JEZICI"><a href="?show=kratice_jezici">KRATICE I JEZICI</a></td>
+	</tr>
+	<tr> 
+	  <td bgcolor="#FFFFFF" class="border-all" title="ZNAKOVI"><a href="?show=znakovi">ZNAKOVI</a></td>
+	</tr>
+</table>
+					</td>
+				</tr>
+				<tr>
+					<td valign="bottom" align="left" style="padding-top:50px;">
+						<table width="100%" >
+							<tr>
+								<td align="left"  class="normal">
+									<b>Kontakti: </b>
+								</td>
+								<td align="left" width="100%"  class="normal"><a href="mailto: sandra@novi-liber.hr">Novi Liber</a>
+								</td>
+							</tr>
+							<tr>
+								<td align="left">&nbsp;
+									
+								</td>
+								<td align="left"  class="normal"><a href="mailto: her@srce.hr">Srce</a>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td  class="normal">
+						Riječ dana:
+					</td>
+				</tr>
+				<tr> 
+					<td title="Riječ dana">
+						<iframe src="/word_of_the_day.php" width="240px" height="250px" style="border:none;background-color:white;">
+						</iframe>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td colspan=3 align="left" valign="top" bgcolor="#006BB2" height="20">&nbsp;
+			
+		</td>
+	</tr>
+	<tr>
+		<td align="right">&nbsp;</td>
+		<td valign="top" align="center"  class="normal" style="text-align:center">
+		 <font size="-1"> *Da biste ispravno vidjeli sadržaj rječnika, na svom računalu morate imati instaliran font Libersina<sup>&copy;</sup>. Font možete preuzeti <a href="download/libersina.zip">OVDJE</a>.
+		 Nakon preuzimanja, font je potrebno raspakirati i instalirati na računalo.</font>
+		</td>
+		 <td align="left">&nbsp;</td>
+	</tr>
+	<tr>
+		<td align="right">&nbsp;</td>
+		<td valign="top" align="center"><br><center><a href="http://www.srce.unizg.hr/" target="_blank"><img border="0" src="images/srce_logo.gif"></a>&nbsp;&nbsp;&nbsp;<a href="http://www.novi-liber.hr" target="_blank"><img border="0" src="images/logo_nl.gif"></center></td>
+		
+		 <td align="left">&nbsp;</td>
+	</tr>
+</table>
+</center>
+</body>
+</html>
+
