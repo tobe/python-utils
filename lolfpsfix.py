@@ -9,7 +9,7 @@ import shutil
 
 def main():
     Tk().withdraw() # we don't want a full GUI, so keep the root window from appearing
-    filename = askopenfilename(initialdir='D:/install/LoL/League of Legends', title='lolfpsfix', defaultextension='.exe', filetypes=[('lol.launcher.exe', 'lol.launcher.exe')]) # Look for lol.launcher.exe
+    filename = askopenfilename(initialdir='C:\\', title='lolfpsfix', defaultextension='.exe', filetypes=[('lol.launcher.exe', 'lol.launcher.exe')]) # Look for lol.launcher.exe
 
     if not filename: exit('Nothing chosen!')
 
