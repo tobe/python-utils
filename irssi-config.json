@@ -6,13 +6,6 @@
             "port": 6697,
             "ssl": 1,
             "autoconnect": "yes"
-        },
-        {
-            "name": "Freenode",
-            "address": "irc.freenode.org",
-            "port": 6697,
-            "ssl": 1,
-            "autoconnect": "yes"
         }
     ],
 
@@ -21,10 +14,6 @@
             "name": "Darchoods",
             "type": "IRC",
             "autosend": "/^msg NICKSERV IDENTIFY passwordgoeshere;wait 5000"
-        },
-        {
-            "name": "Freenode",
-            "type": "IRC"
         }
     ],
 
@@ -44,14 +33,6 @@
         {
             "chatnet":  "Darchoods",
             "name":     "#anti-darchoods"
-        },
-        {
-            "chatnet":  "Freenode",
-            "name":     "#linux.hr"
-        },
-        {
-            "chatnet":  "Freenode",
-            "name":     "#ubuntu.hr"
         }
     ],
 

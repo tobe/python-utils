@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python2
 import os
 import json
 
@@ -37,9 +37,9 @@ def run():
     for s_info in data['Servers']: # Foreach server info
         #print s_info['name']
         output += '\n\t{\n'
-        output += '\t\tchatnet = "' + s_info['name'] + '";\n'
-        output += '\t\taddress = "' + s_info['address'] + '";\n'
-        output += '\t\tport = "' + str(s_info['port']) + '";\n'
+        output += '\t\taddress = "%s";\n' % (s_info['address'])
+        output += '\t\tchatnet = "%s";\n' % (s_info['name'])
+        output += '\t\tport = "%s";\n' % (str(s_info['port']))
 
         # Check for SSL paranoidness
         if s_info['ssl'] == 2:
@@ -50,8 +50,9 @@ def run():
             output += '\t\tssl_verify = "no";\n'
         else:
             output += '\t\tuse_ssl = "no";\n'
+            output += '\t\tssl_verify = "no";\n'
 
-        output += '\t\tautoconnect = "' + s_info['autoconnect'] + '";\n'
+        output += '\t\tautoconnect = "%s";\n' % (s_info['autoconnect'])
 
         if i == len(data['Servers']):
             output += '\t}'
@@ -64,15 +65,14 @@ def run():
     output += 'chatnets = {\n'
 
     # ::: CHATNETS :::
-#    i = 1
     for chatnets in data['Chatnets']:
         # Autosend blank?
         if not 'autosend' in chatnets:
-            chatnets['autosend'] = 'echo \'What are you looking for here?\''
+            chatnets['autosend'] = 'echo "What are you looking for here?"'
 
-        output += '\t' + chatnets['name'] + ' = ' + '{\n'
-        output += '\t\ttype = "' + chatnets['type'] + '";\n'
-        output += '\t\tautosendcmd = "' + chatnets['autosend'] + '";\n'
+        output += '\t%s = {\n' % (chatnets['name'])
+        output += '\t\ttype = "%s";\n' % (chatnets['type'])
+        output += '\t\tautosendcmd = "%s";\n' % (chatnets['autosend'])
         output += '\t\tmax_kicks = "100";\n'
         output += '\t\tmax_msgs = "100";\n'
         output += '\t\tmax_whois = "1";\n'
@@ -85,8 +85,8 @@ def run():
     i = 1
     for channels in data['Channels']:
         output += '\t{\n'
-        output += '\t\tname = "' + channels['name'] + '";\n'
-        output += '\t\tchatnet = "' + channels['chatnet'] + '";\n'
+        output += '\t\tname = "%s";\n' % (channels['name'])
+        output += '\t\tchatnet = "%s";\n' % (channels['chatnet'])
         output += '\t\tautojoin = "yes";\n'
 
         if i == len(data['Channels']):
@@ -99,9 +99,9 @@ def run():
     output += '\n);\n'
 
     # Poof, show the user to paste their own stuff here.
-    output += '\n### PASTE YOUR OWN ALIASES HERE ###\n\n\n\n\n\n'
-    output += '### PASTE YOUR OWN STATUSBAR HERE ###\n\n\n\n\n\n'
-    output += '### PASTE YOUR OWN SETTINGS HERE ###\n\n\n\n\n\n'
+    output += '\n### PASTE YOUR OWN ALIASES HERE ###' + '\n'*5
+    output += '### PASTE YOUR OWN STATUSBAR HERE ###' + '\n'*5
+    output += '### PASTE YOUR OWN SETTINGS HERE ###' + '\n'*5
 
     output += 'hilights = (\n'
 
@@ -109,9 +109,9 @@ def run():
     i = 1
     for hilights in data['Hilights']:
         output += '\t{\n'
-        output += '\t\ttext = "' + hilights['text'] + '";\n'
-        output += '\t\tnick = "' + hilights['nick'] + '";\n'
-        output += '\t\tword = "' + hilights['word'] + '";\n'
+        output += '\t\ttext = "%s";\n' % (hilights['text'])
+        output += '\t\tnick = "%s";\n' % (hilights['nick'])
+        output += '\t\tword = "%s";\n' % (hilights['word'])
 
         if i == len(data['Hilights']):
             output += '\t}'
@@ -122,11 +122,16 @@ def run():
     # And we're done...now off to windows and we're done!
     output += '\n);\n'
 
+    output += 'windows = {\n'
+    output += '\t1 = { immortal = "yes"; name = "#"; level = "ALL"; };\n'
+    output += '\t2 = { name = "hilight"; immortal="yes"; };\n'
+    # output += '};'
+    # User should pipe this out into a file with >.
 
     # ::: WINDOWS :::
     # Start counting from window number count_start
     # strstr()
-    output += 'windows = {\n'
+    #output += 'windows = {\n'
 
     for windows in data['Channels']:
         output += '\t' + str(count_start) + ' = {\n'
@@ -144,7 +149,6 @@ def run():
     output += '### PASTE YOUR mainwindows AND SUCH HERE ### THE END / FIN / KRAJ / KONEC ###\n\n\n'
     output += '};\n\n\n'
 
-    # User should pipe this out into a file with >.
     print output
 
 if __name__ == '__main__':
