@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 # -*- coding: utf-8 -*- 
 
 import SocketServer # We need this in order to emulate a server
@@ -18,7 +18,6 @@ class MyTCPHandler(SocketServer.BaseRequestHandler):
         print self.data # Print it out I guess...just to note it's been received
         print '\n\n\n=== SENDING SPOOFED DATA TO ALL CLIENTS ===\n'
 
-        # Now return spoofed data in a nice one liner (idgaf bro) ;-)
         self.request.sendall(json.dumps({'location': {'lat': self.latitude, 'lng': self.longtitude}, 'accuracy': self.accuracy}))
         print json.dumps({'location': {'lat': self.latitude, 'lng': self.longtitude}, 'accuracy': self.accuracy})
 
